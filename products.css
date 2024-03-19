@@ -1,0 +1,152 @@
+.row-left {
+  width: 30%;
+}
+.row-right {
+  width: 70%;
+}
+#p-style {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+.all-Categories {
+  width: 100%;
+}
+.all-Categories ul {
+  list-style-type: none;
+}
+.all-Categories ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.all-Categories ul li a:hover {
+  color: #db2230;
+}
+.all-Categories ul li a h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.all-Categories ul li a h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Appliances ul,
+.Bathroom-Amenities ul,
+.Linen-Towel ul,
+.Mattress ul,
+.Tourist-Destination ul {
+  list-style-type: none;
+}
+.Appliances ul li a,
+.Bathroom-Amenities ul li a,
+.Linen-Towel ul li a,
+.Mattress ul li a,
+.Tourist-Destination ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: clamp(12px, 5vw, 16px);
+  font-weight: 400;
+}
+.Appliances ul li a:hover,
+.Bathroom-Amenities ul li a:hover,
+.Linen-Towel ul li a:hover,
+.Mattress ul li a:hover,
+.Tourist-Destination ul li a:hover {
+  color: #db2230;
+}
+.product-free {
+  height: 250px;
+  margin-bottom: 40px;
+}
+.pd-img {
+  width: 100%;
+  height: 70%;
+}
+.pd-img img {
+  width: 100%;
+  height: 100%;
+}
+.pd-text {
+  width: 100%;
+  height: 30%;
+  border-radius: 0px, 0px, 8px, 8px;
+  background: #f0f0f0;
+  padding: 5px 10px 0;
+}
+.product-free .pd-text h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.product-free .pd-text p {
+  font-size: 14px;
+  font-weight: 400;
+}
+/* X-Large devices (large desktops, 1200px and up)(xl)*/
+@media (min-width: 1200px) {
+}
+/* Large devices (desktops, 992px and up)(lg)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .product-free {
+    height: 220px;
+  }
+}
+/* Medium devices (tablets, 768px and up)(md)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .product-free {
+    height: 200px;
+  }
+  .pd-img {
+    height: 60%;
+  }
+  .pd-text {
+    height: 40%;
+  }
+  .all-Categories ul li a h2 {
+    font-size: 19px;
+    font-weight: 600;
+  }
+  .all-Categories ul li a h3 {
+    font-size: 19px;
+    font-weight: 600;
+  }
+}
+/* Small devices (landscape phones, 576px and up)(sm)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .row-left {
+    display: none;
+  }
+  .row-right {
+    width: 100%;
+  }
+  .product-free {
+    height: 200px;
+  }
+  .pd-img {
+    height: 60%;
+  }
+  .pd-text {
+    height: 40%;
+  }
+}
+/*Extra Small devices (portrait phones, less than 576px)(col)*/
+@media (max-width: 575.98px) {
+  .row-left {
+    display: none;
+  }
+  .row-right {
+    width: 100%;
+  }
+  .product-free {
+    height: 200px;
+  }
+  .pd-img {
+    height: 60%;
+  }
+  .pd-text {
+    height: 40%;
+  }
+  .product-free .pd-text h3 {
+    font-size: 18px;
+  }
+}

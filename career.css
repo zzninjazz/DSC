@@ -1,0 +1,41 @@
+.sec1-2 p {
+  font-size: clamp(12px, 50vw, 18px);
+}
+.sale {
+  width: 100%;
+  background: #f1f1f1;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.sale h2 {
+  font-size: clamp(14px, 50vw, 20px);
+  font-weight: 600;
+}
+.text-style-left {
+  width: 30%;
+  float: left;
+}
+.text-style-right {
+  width: 70%;
+  float: left;
+}
+.job-description {
+  width: 100%;
+}
+.job-description h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.job-description p {
+  margin-left: 4%;
+}
+.Job-requirements {
+  width: 100%;
+}
+.Job-requirements h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.Job-requirements p {
+  margin-left: 4%;
+}

@@ -1,0 +1,252 @@
+#e-sec2 img {
+  width: 100%;
+  height: auto;
+}
+
+.item-box h6 {
+  font-size: 16px;
+}
+.item-box p,
+h5 {
+  font-size: 15px;
+}
+.sec1-r2 {
+  margin-top: 50px;
+}
+.sec1-r2 .e-box .e-img img {
+  width: 100%;
+}
+
+#background-image1 {
+  background-image: url(img/e1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  opacity: 0.7;
+  /* position: relative; */
+}
+#background-color1 {
+  background-color: black;
+  position: relative;
+  z-index: 99;
+}
+.sec1-r2 .e-box {
+  width: 100%;
+  height: 100%;
+}
+.sec1-r2 .e-box .e-txt {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map-right-r2 {
+  width: 100%;
+  overflow: hidden;
+}
+/*.sec1-r2 .e-box .e-txt a {
+  margin-bottom: 50px;
+  font-size: 10px;
+}*/
+.sec1-r2 .e-box .e-txt p {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.sec1-r2 .e-box .e-txt h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.sec1-r2 .e-box .e-txt ul {
+  list-style-type: none;
+}
+.sec1-r2 .e-box .e-txt ul li {
+  margin-bottom: 120px;
+}
+.sec1-r2 .e-box .e-txt ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  color: #ffffff;
+}
+.sec1-r2 .e-box .e-txt ul li a img {
+  width: 10px;
+}
+.sec1-r2 .e-box .e-txt ul li a:hover {
+  color: red;
+}
+.sec1-r2 .e-box .e-img img {
+  border-radius: 15px;
+}
+.sec1-r3 {
+  margin-top: 50px;
+}
+.txt-left-r1,
+.txt-right-r1 {
+  margin-bottom: 50px;
+}
+.icon-right-r4 {
+  width: 100%;
+}
+.icon-right-r4 .icon-box {
+  width: 36px;
+  height: 36px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 50px;
+  padding: 4px;
+  margin-right: 10px;
+}
+.icon-right-r4 .icon-box img {
+  width: 100%;
+  object-fit: cover;
+}
+/* X-Large devices (large desktops, 1200px and up)(xl)*/
+@media (min-width: 1200px) {
+}
+/* Large devices (desktops, 992px and up)(lg)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .item-box h6 {
+    font-size: 15px;
+  }
+  .item-box,
+  p,
+  h5 {
+    font-size: 14px;
+  }
+  .sec1-r2 .e-box .e-txt ul li {
+    margin-bottom: 130px;
+  }
+  .sec1-r2 {
+    margin-top: 40px;
+  }
+  .sec1-r3 {
+    margin-top: 40px;
+  }
+  .txt-left-r1,
+  .txt-right-r1 {
+    margin-bottom: 40px;
+  }
+  .sec1-r3 .txt-left-r2 p {
+    font-size: 15px;
+  }
+}
+/* Medium devices (tablets, 768px and up)(md)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .item-box h6 {
+    font-size: 14px;
+  }
+  .item-box,
+  p,
+  h5 {
+    font-size: 13px;
+  }
+  .sec1-r2 .e-box .e-txt ul li {
+    margin-bottom: 135px;
+  }
+  .sec1-r2 {
+    margin-top: 30px;
+  }
+  .sec1-r3 {
+    margin-top: 40px;
+  }
+  .txt-left-r1,
+  .txt-right-r1 {
+    margin-bottom: 40px;
+  }
+  .sec1-r3 .txt-left-r2 p {
+    font-size: 14px;
+  }
+}
+/* Small devices (landscape phones, 576px and up)(sm)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .item-box p,
+  h5 {
+    font-size: 14px;
+  }
+  .item-box h6 {
+    font-size: 15px;
+  }
+  .sec1-r2 .e-box .e-txt ul li {
+    margin-bottom: 80px;
+  }
+
+  .sec1-r2 .e-box .e-txt {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+  }
+  #background-image1 {
+    height: 300px;
+    /* position: relative; */
+  }
+  .sec1-r2 {
+    margin-top: 30px;
+  }
+  .sec1-r3 {
+    margin-top: 35px;
+  }
+  .txt-left-r1,
+  .txt-right-r1 {
+    margin-bottom: 35px;
+  }
+  .sec1-r3 .txt-left-r2 p {
+    font-size: 13px;
+  }
+}
+/*Extra Small devices (portrait phones, less than 576px)(col)*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .sec1-r2 {
+    margin-top: 15px;
+  }
+  .sec1-r3 {
+    margin-top: 30px;
+  }
+  .sec1-r3 .txt-left-r2 p {
+    font-size: 12px;
+  }
+  .txt-left-r1,
+  .txt-right-r1 {
+    margin-bottom: 30px;
+  }
+  #background-image1 {
+    height: 250px;
+    /* position: relative; */
+  }
+  .sec1-r2 .e-box .e-txt {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+  .sec1-r2 .e-box .e-txt ul li {
+    margin-bottom: 80px;
+  }
+  .sec1-r2 .e-box .e-txt h2,
+  a {
+    color: white;
+    font-size: 12px;
+  }
+  .sec1-r2 .e-box .e-txt p {
+    font-size: 8px;
+    color: white;
+  }
+  .item-box {
+    height: auto;
+  }
+  .item-box h6 {
+    font-size: 9px;
+  }
+  .item-box,
+  p,
+  h5 {
+    font-size: 8px;
+  }
+  .icon-right-r4 .icon-box {
+    margin-top: 20px;
+  }
+}

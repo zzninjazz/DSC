@@ -1,0 +1,144 @@
+.sec1-r1 {
+  margin-bottom: 50px;
+}
+.sec1-r2 p {
+  text-align: center;
+}
+.sec2-r1 {
+  height: 500px;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-right {
+  height: 365px;
+  width: 45%;
+}
+.box-left {
+  height: 365px;
+  width: 45%;
+}
+.item-left {
+  width: 80%;
+  height: 9.09%;
+  float: right;
+  font-size: 16px;
+  color: #000000;
+}
+.item-rigth {
+  width: 80%;
+  height: 100%;
+  background: #000000;
+}
+.style-icon {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.style-icon img {
+  width: 50%;
+  height: 40%;
+}
+.box-style {
+  width: 80%;
+  height: 100%;
+  display: flex;
+
+  align-items: center;
+}
+.text-style p {
+  font-size: 14px;
+  margin: 0;
+}
+.item-rigth-r1 {
+  width: 100%;
+  height: 20%;
+  color: #ffffff;
+  display: flex;
+}
+.r1-text-left {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.r1-text-right {
+  width: 80px;
+  height: 100%;
+}
+#r1-h2 {
+  width: 20%;
+  padding: 10px 0 0;
+
+  align-items: center;
+}
+.item-rigth-r1 h2 {
+  font-size: 24px;
+}
+.item-rigth-r2 {
+  width: 100%;
+  height: 20%;
+  color: #ffffff;
+  display: flex;
+}
+.item-rigth-r3 {
+  width: 100%;
+  height: 30%;
+  color: #ffffff;
+  display: flex;
+}
+
+.item-rigth-r4 {
+  width: 100%;
+  height: 30%;
+  color: #ffffff;
+  display: flex;
+}
+/* X-Large devices (large desktops, 1200px and up)(xl)*/
+@media (min-width: 1200px) {
+}
+/* Large devices (desktops, 992px and up)(lg)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .sec1-r1 {
+    margin-bottom: 40px;
+  }
+  #block-name {
+    margin-top: 30px;
+  }
+}
+/* Medium devices (tablets, 768px and up)(md)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sec2-r1 {
+    height: 450px;
+  }
+  .item-left {
+    font-size: 15px;
+  }
+  .text-style p {
+    font-size: 13px;
+  }
+  .item-rigth-r1 h2 {
+    font-size: 22px;
+  }
+}
+/* Small devices (landscape phones, 576px and up)(sm)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sec2-r1 {
+    height: 430px;
+  }
+  .item-left {
+    font-size: 14px;
+  }
+  .text-style p {
+    font-size: 12px;
+  }
+  .item-rigth-r1 h2 {
+    font-size: 20px;
+  }
+}
+/*Extra Small devices (portrait phones, less than 576px)(col)*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+}

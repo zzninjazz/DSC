@@ -1,0 +1,16 @@
+.box-left {
+  width: 45%;
+  height: auto;
+}
+.box-left img {
+  width: 100%;
+  height: auto;
+}
+.box-right {
+  width: 45%;
+  height: auto;
+}
+.box-right img {
+  width: 100%;
+  height: auto;
+}
